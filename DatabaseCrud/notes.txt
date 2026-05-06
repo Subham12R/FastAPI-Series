@@ -1,0 +1,25 @@
+Introduction to Database CRUD Operations
+
+Database with SQLModel
+|
+|_ No SQL
+|
+|_ SQL
+
+What is ORM?
+Object-Relational Mapping (ORM) is a programming technique that allows developers to interact with relational databases using object-oriented programming languages. It provides a way to map database tables to classes and database records to objects, abstracting away the low-level details of database operations.
+
+Basic ORM Concepts
+- Models: Represent database tables as Python classes
+- Sessions: Manage database transactions and queries
+- Relationships: Define connections between different database tables
+- Queries: Write database operations using object-oriented syntax
+- Migrations: Manage database schema changes over time
+- Interactions: Perform CRUD operations on database records
+
+SQLAlchemy
+SQLAlchemy is a popular Python ORM that provides a full suite of tools for working with relational databases. It supports multiple database backends and offers a high-level, expressive API for database operations.
+
+SQLModel
+SQLModel is a modern Python library that combines the simplicity of SQLAlchemy with the type safety of Pydantic, making it easier to build robust, type-safe database applications.
+
